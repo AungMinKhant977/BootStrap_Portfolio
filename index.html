@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <style>
+    /* Default light theme variables */
+    :root {
+      --bg-color: #f8f9fa;
+      --text-color: #212529;
+      --card-bg: #ffffff;
+      --link-color: #dc3545;
+    }
+
+    /* Dark mode variables */
+    [data-theme="dark"] {
+      --bg-color: #212529;
+      --text-color: #f8f9fa;
+      --card-bg: #2c2f33;
+      --link-color: #ff6b6b;
+    }
+
+    body {
+      background-color: var(--bg-color) !important;
+      color: var(--text-color) !important;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .bg-light {
+      background-color: var(--card-bg) !important;
+    }
+
+    .text-muted {
+      color: var(--text-color) !important;
+      opacity: 0.7;
+    }
+
+    .card, .shadow-sm, .img-thumbnail {
+      background-color: var(--card-bg) !important;
+    }
+
+    a {
+      color: var(--link-color) !important;
+    }
+
+    .btn-danger, 
+    .btn-danger:focus, 
+    .btn-danger:active {
+    color: #fff !important;   /* always keep text white */
+    }
+
+
+  </style>
+</head>
+<body class="bg-light">
+    
+    <!-- nav bar start -->
+     
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand text-danger h4" href="#">My PORTFOLIO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link active text-danger" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-danger" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-danger " href="#skill">Skills</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-danger " href="#team">Team Members</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-danger " href="#project">Projects</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-danger " href="#contact">Contact</a>
+                </li>
+            </ul>
+            </div>
+            <button id="theme-toggle" class="btn btn-outline-danger ms-3">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+     <!-- nav bar end -->
+
+     <!-- introduction start -->
+    <section id="home">
+     <div class="container-lg">
+        <div class="row min-vh-100 align-items-center">
+            <div class="col-md-6">
+                <div class="text-center">
+                <img src="./image/pp2_square.png" alt="My Profile" class="rounded-circle shadow-sm img-thumbnail" width="70%" height="70%">
+                </div>
+            </div>
+            <div class="col-md-6  order-md-first">
+                <p class="text-muted">Hello I'm</p>
+                <h3 class="text-danger">Full Stack Web Developer</h3>
+                <h4>Aung Min Khant</h4>
+                <p class="text-muted">
+                    I am an aspiring website developer who is eager to learn and grow
+                        in the field . Although I don’t yet have formal work experience , I
+                        possess strong communication skills , a willingness to learn and a
+                        solid work ethic. I am committed to working collaboratively with
+                        teams and dedicated to continuous improvement.
+                </p>
+                
+                    <a href="./image/Aung Min Khant's Resume.jpg" download class="btn btn-danger rounded ">Download my CV</a>
+                
+            </div>
+        </div>
+     </div>
+    </section>
+
+     <!-- introduction end -->
+
+     <hr>
+
+     <!-- about me start -->
+
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-md-12 mt-5 fw-bold d-flex  justify-content-center mb-5 h3" id="about">About Me</div>
+                <div class="col-md-6">
+                    <h3 class="fw-bold mb-3"> Web Developer</h3>
+                    <p class="text-muted ">I was born in Kadapana village , Tada , KyawkTan Township , Yangon. My age is 19 years old . My father name is U Myint Ko . I passed the High Shcool .If You want to know about of me you can download My CV Directed.
+                        <span style="color: red;">Here is the notic . At the follow I don't have a Team , It's only for show..... AND THEN I DON'T HAVE A Job experience by I have  the school final projects experiences.</span>
+                    </p>
+
+                        <div class="row text-uppercase">
+                            <div class="col-md-4">
+                                <div class="text-center">
+                                    <h1>100+</h1>
+                                    <p class="">Project Completed</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="text-center">
+                                    <h1>90+</h1>
+                                    <p class="">Happy Clients</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="text-center">
+                                    <h1>95+</h1>
+                                    <p class="">Responsiblity on PJ</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="./image/Aung Min Khant's Resume.jpg" download="" class="btn btn-danger rounded">Download My CV</a>
+                            </div>
+                            <div class="col fs-3 text-right">
+                                <!-- aung-minn-khant-47508334b -->
+                                 <!-- AungMinKhant977 -->
+                                  <!-- aung.min.khant.468106 -->
+                                <a href="https://www.facebook.com/aung.min.khant.468106" class="text-danger" ><i class="fa-brands fa-facebook"></i></a>
+                                <a href="aungminnkhant97767@gmail.com" class="text-danger" ><i class="fa-solid fa-envelope"></i></a>
+                                <a href="https://github.com/AungMinKhant977/" class="text-danger"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/aung-minn-khant-47508334b/" class="text-danger"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                     
+
+                </div>
+
+                <div class="col-md-6 mt-5">
+                    <div class="mb-4">
+                        <h5>HTML</h5>
+                        <div class="progress" style="height: 5px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <h5>CSS</h5>
+                        <div class="progress" style="height: 5px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <h5>JS</h5>
+                        <div class="progress" style="height: 5px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                  
+                    <div class="mb-3">
+                        <h5>JQuery</h5>
+                        <div class="progress" style="height: 5px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+             
+                    <div class="mb-3">
+                        <h5>PHP</h5>
+                        <div class="progress" style="height: 5px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 89%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <h5>Laravel</h5>
+                        <div class="progress" style="height: 5px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <h5>MySQL</h5>
+                        <div class="progress" style="height: 5px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>         
+                </div>
+            </div>
+        </div>
+
+      <!-- about me end -->
+
+        <hr>
+
+     <!-- What I do? -->
+
+        <div class="my-5">
+            <div class="container-lg">
+                <div class="row">
+                    <div class="col-lg-12 text-center h3 fw-bold" id="skill">
+                        What I do ?
+                    </div>
+                </div>
+
+                <div class="row my-3 mx-5 text-center g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="bg-white shadow-sm rounded p-5">
+                            <div class="my-3">
+                                <i class="fa-solid fa-code text-danger fs-1 fw-bold"></i>
+                            </div>
+                            <h3 class=" fw-bold mb-4 text-uppercase">Web Development</h3>
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque at nam quos corrupti magni incidunt dolor, maiores vero necessitatibus dolorem iusto ducimus doloribus voluptatibus suscipit tenetur ex expedita possimus voluptas..</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="bg-white shadow-sm rounded p-5">
+                            <div class="my-3">
+                                <i class="fa-solid fa-lightbulb text-danger fs-1"></i>
+                            </div>
+                            <h3 class=" fw-bold mb-4 text-uppercase">Creative Idea</h3>
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque at nam quos corrupti magni incidunt dolor, maiores vero necessitatibus dolorem iusto ducimus doloribus voluptatibus suscipit tenetur ex expedita possimus voluptas..</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="bg-white shadow-sm rounded p-5">
+                            <div class="my-3">
+                                <i class="fa-solid fa-image text-danger fs-1"></i>
+                            </div>
+                            <h3 class=" fw-bold mb-4 text-uppercase">Photoshop</h3>
+                            <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente facere reiciendis optio eius facilis asperiores totam quibusdam labore suscipit odit necessitatibus quo, consequatur vitae placeat quia, ipsum adipisci quis magni?</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+     <!-- What I do? end -->
+        <hr>
+     <!-- Latest Project Section Start -->
+
+     <div class="container-lg">
+    
+        <div class="row mt-5">
+            <div class="col-md-12 h3 fw-bold text-center " id="project">My Lastest Projects</div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-6 col-lg-4 ">
+                <img src="./image/d1.jfif" alt="Dashboard One" class="w-100 h-75 img-thumbnail shadow-sm">
+                <h5 class="my-3">Admin Dashboard</h5>
+                <p>
+                    <a href="#" class="text-danger text-decoration-none" target="_blank">Live Demo</a>
+                </p>
+            </div>
+            <div class="col-md-6 col-lg-4 ">
+                <img src="./image/d2.png" alt="Dashboard One" class="w-100  h-75 img-thumbnail shadow-sm">
+                <h5 class="my-3">Team Section</h5>
+                <p>
+                    <a href="#" class="text-danger text-decoration-none" target="_blank">Live Demo</a>
+                </p>
+            </div>
+            <div class="col-md-6 col-lg-4 ">
+                <img src="./image/d3.jfif" alt="Dashboard One" class="w-100 h-75 img-thumbnail shadow-sm">
+                <h5 class="my-3">Creative Code Team</h5>
+                <p>
+                    <a href="#" class="text-danger text-decoration-none" target="_blank">Live Demo</a>
+                </p>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <img src="./image/d4.jfif" alt="Dashboard One" class="w-100 h-75 img-thumbnail shadow-sm">
+                <h5 class="my-3">Item Gallery</h5>
+                <p>
+                    <a href="#" class="text-danger text-decoration-none" target="_blank">Live Demo</a>
+                </p>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <img src="./image/d5.jfif" alt="Dashboard One" class="w-100 h-75 img-thumbnail shadow-sm">
+                <h5 class="my-3">Daily News</h5>
+                <p>
+                    <a href="#" class="text-danger text-decoration-none" target="_blank">Live Demo</a>
+                </p>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <img src="./image/d6.jfif" alt="Dashboard One" class="w-100 h-75 img-thumbnail shadow-sm">
+                <h5 class="my-3">Pizza Order System</h5>
+                <p>
+                    <a href="#" class="text-danger text-decoration-none" target="_blank">Live Demo</a>
+                </p>
+            </div>
+        </div>
+    
+     </div>
+
+     <!-- Lastest Project Section Start -->
+
+     <hr>
+
+     <!-- FreeLencer start -->
+
+     <section class="bg-danger mt-5 py-5">
+        <div class="container-lg">
+            <div class="row text-center">
+                <div class="col-8 offset-2">
+                    <p class="text-white">Do you have got any Project ?</p>
+                    <h1 class="text-white">I'm Available for FreeLeancer Projects.</h1>
+                    <button class="btn btn-outline-light" src="#contact">Contact Me</button>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- FreeLeancer end -->
+     <hr>
+     <!-- Team member start -->
+
+    <div class="container-lg mt-5">
+        <div class="row mb-5">
+            <div class="col-6 offset-3">
+                <div class="text-center ">
+                    <h2 class="fw-bold" id="team">Our Team Members</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- carousel start -->
+
+        <div class="row">
+            <div class="col-lg-8  offset-2">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" 
+                            class="active bg-danger" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" 
+                            class="bg-danger" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" 
+                            class="bg-danger" aria-label="Slide 3"></button>
+                </div>
+
+                <div class="carousel-inner">
+
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active bg-white shadow-sm rounded px-3 py-5">
+                    <div class="d-flex align-items-center">
+                        <img src="./image/pp2_square.png" alt="Profile 1" width="100" height="100" 
+                            class="img-thumbnail rounded-circle">
+                        <span class="ms-4">
+                        <h3 class="fs-4 mb-1 fw-bold">Alvin Kate</h3>
+                        <p>Senior Web Developer</p>
+                        </span>
+                    </div>
+                    <p class="text-muted my-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae possimus ipsam dolore, est quis aut ut deleniti doloribus adipisci tempore, natus nobis suscipit sed inventore corrupti facilis fugiat laborum vitae.</p>
+                    <div class="text-warning"> 
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item bg-white shadow-sm rounded px-3 py-5">
+                    <div class="d-flex align-items-center">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7ntUU7AzmOxa5HB8zS83sa-JFHEfZJAoI2A&s" 
+                            alt="Profile 2" width="100" height="100" class="img-thumbnail rounded-circle">
+                        <span class="ms-4">
+                        <h3 class="fs-4 mb-1 fw-bold">Htun Htun</h3>
+                        <p>UI / UX Designer</p>
+                        </span>
+                    </div>
+                    <p class="text-muted my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, inventore dolorum, saepe nobis repudiandae dolore consequatur, voluptas eveniet consequuntur omnis ullam? Iure illum debitis nam provident libero eaque voluptatibus incidunt.</p>
+                    <div class="text-warning"> 
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="carousel-item bg-white shadow-sm rounded px-3 py-5">
+                    <div class="d-flex align-items-center">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW3IdlkJ17gfJzYce6qsBmaE2Vt22V9HwMTw&s" alt="Profile 3" width="100" height="100" 
+                            class="img-thumbnail rounded-circle">
+                        <span class="ms-4">
+                        <h3 class="fs-4 mb-1 fw-bold">Kyaw Kyaw</h3>
+                        <p>Mobile Developer</p>
+                        </span>
+                    </div>
+                    <p class="text-muted my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse numquam, non sapiente totam, sed eos illum, consequatur sit cumque culpa id minus nisi voluptas error enim eligendi repellat accusamus molestiae.</p>
+                    <div class="text-warning"> 
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    </div>
+
+                </div>
+
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon text-danger" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon text-danger" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- carousel end -->
+
+    </div>
+
+
+     <!-- Team member end -->
+
+     <hr>
+
+<!-- Contact section start -->
+<div class="container-lg mt-5">
+  <!-- Title -->
+  <div class="row">
+    <div class="d-flex justify-content-center">
+      <h3 class="fw-bold " id="contact">Contact Me</h3>
+    </div>
+  </div>
+
+  <div class="row mt-4">
+    <!-- Left side (Contact Info) -->
+    <div class="col-md-6 ">
+      <!-- Phone -->
+      <div class="d-flex align-items-center my-4">
+        <div class="icon text-danger h3 me-3">
+          <i class="fa-solid fa-phone"></i>
+        </div>
+        <div class="info text-md-center">
+          <h3 class="fs-5 mb-1">Phone</h3>
+          <div class="text-muted">+959765654040</div>
+        </div>
+      </div>
+
+      <!-- Email -->
+      <div class="d-flex align-items-center my-4">
+        <div class="icon text-danger h3 me-3">
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+        <div class="info text-md-cente">
+          <h3 class="fs-5 mb-1">Email</h3>
+          <div class="text-muted">aungminnkhant97767@gmail.com</div>
+        </div>
+      </div>
+
+      <!-- Address -->
+      <div class="d-flex align-items-center my-4">
+        <div class="icon text-danger h3 me-3">
+          <i class="fa-solid fa-location-dot"></i>
+        </div>
+        <div class="info text-md-center">
+          <h3 class="fs-5 mb-1">Address</h3>
+          <div class="text-muted">Yangon</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right side (Contact Form) -->
+    <div class="col-md-6">
+      <form>
+        <div class="mb-3">
+          <input type="text" class="form-control rounded" placeholder="Your Name" required>
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control rounded" placeholder="Your Email" required>
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control rounded" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-danger px-4">Send Message</button>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- Contact section end -->
+<hr class="my-5">
+<!-- footer start -->
+
+    <div class="mt-5">
+        <div class="container-lg">
+        <div class="row">
+            <div class="col-md-8 offset-2">
+                <p class="text-muted text-center">I will learn , I will Share My Knowledge.I will learn , I will Share My Knowledge. </p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+<!-- footer end -->
+</body>
+
+
+<script>
+  const toggleBtn = document.getElementById("theme-toggle");
+  const body = document.body;
+
+  // Load theme from localStorage
+  const currentTheme = localStorage.getItem("theme") || "light";
+  body.setAttribute("data-theme", currentTheme);
+  updateIcon(currentTheme);
+
+  toggleBtn.addEventListener("click", () => {
+    let theme = body.getAttribute("data-theme") === "light" ? "dark" : "light";
+    body.setAttribute("data-theme", theme);
+    localStorage.setItem("theme", theme);
+    updateIcon(theme);
+  });
+
+  function updateIcon(theme) {
+    toggleBtn.innerHTML =
+      theme === "light"
+        ? '<i class="fa-solid fa-moon"></i>'
+        : '<i class="fa-solid fa-sun"></i>';
+  }
+</script>
+
+
+<!--  Bootstrap JS Link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
